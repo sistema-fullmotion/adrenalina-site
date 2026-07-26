@@ -1,8 +1,8 @@
 <!DOCTYPE html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Kart no Rio de Janeiro | Adrenalina Rio Kart - Zona Norte</title>
-<meta name="description" content="A maior pista de kart indoor do RJ, no Shopping Jardim Guadalupe. A partir de R$ 75, sem precisar de experiencia nem reserva. Espaco para festas e eventos de empresa.">
+<meta name="description" content="A maior pista de kart indoor do RJ, no Shopping Jardim Guadalupe. A partir de R$ 60, sem precisar de experiencia. Espaco para festas e eventos de empresa.">
 <meta property="og:title" content="Adrenalina Rio Kart - A maior pista de kart indoor do RJ">
-<meta property="og:description" content="10 anos acelerando historias na Zona Norte do Rio. Chegue e acelere, sem reserva.">
+<meta property="og:description" content="10 anos acelerando historias na Zona Norte do Rio.">
 <meta property="og:type" content="website">
 </head><body style="margin:0">
 <style>
@@ -31,6 +31,16 @@
   .btn-wa{ background:var(--green); color:#fff; }
   .btn-yel{ background:var(--yellow); color:var(--navy); }
   .btn-out{ background:transparent; color:#fff; border:2px solid rgba(255,255,255,.5); }
+
+  /* AVISO DE REAJUSTE — remover depois de 01/08 (bloco marcado com data-aviso) */
+  .aviso{ background:#e63946; color:#fff; text-align:center; padding:14px 20px; font-weight:800;
+    font-size:15px; letter-spacing:.4px; line-height:1.45; }
+  .aviso b{ color:#F5E400; }
+  .oldnew{ display:flex; align-items:baseline; gap:10px; justify-content:flex-end; }
+  .oldnew .ago{ font-size:15px; font-weight:700; color:var(--mut); text-decoration:line-through; text-decoration-thickness:2px; white-space:nowrap; }
+  .urg{ margin-top:26px; background:rgba(230,57,70,.12); border:2px solid #e63946; border-radius:18px;
+    padding:22px 26px; text-align:center; font-size:16px; line-height:1.55; }
+  .urg b{ color:#F5E400; }
   .btn svg{ width:20px; height:20px; fill:currentColor; flex-shrink:0; }
 
   .hero{ position:relative; min-height:82vh; display:flex; align-items:center; background:var(--deep); }
@@ -146,6 +156,12 @@
   </div>
 </header>
 
+<!-- AVISO DE REAJUSTE — REMOVER EM 01/08 -->
+<div class="aviso" data-aviso>
+  Última semana com os preços atuais. A partir de <b>1º de agosto</b> a tabela muda.
+</div>
+<!-- FIM DO AVISO -->
+
 <div class="check" aria-hidden="true"></div>
 
 <section class="hero">
@@ -154,9 +170,9 @@
   <div class="container">
     <span class="kicker">Kart indoor · Zona Norte · Rio de Janeiro</span>
     <h1>A maior pista de kart <em>indoor</em> do RJ</h1>
-    <p>Você veste o capacete, senta a poucos centímetros do chão e esquece o resto do dia. São 10 anos de pista no subsolo do Shopping Jardim Guadalupe. Chegue na hora que quiser, sem reserva.</p>
+    <p>Você veste o capacete, senta a poucos centímetros do chão e esquece o resto do dia. São 10 anos de pista no subsolo do Shopping Jardim Guadalupe, dentro do horário de funcionamento.</p>
     <div class="ctas">
-      <a class="btn btn-yel" href="#precos">Ver preços a partir de R$ 75</a>
+      <a class="btn btn-yel" href="#precos">Ver preços a partir de R$ 60</a>
       <a class="btn btn-out" href="#onde">Como chegar</a>
     </div>
     <div class="trust">
@@ -200,26 +216,32 @@
     <div class="pricewrap">
       <div class="pcard">
         <div class="phead">Terça a sexta</div>
-        <div class="prow"><span class="t">10 min</span><span class="v">R$ 75</span></div>
-        <div class="prow"><span class="t">20 min</span><span class="v">R$ 90</span></div>
-        <div class="prow hl"><span class="t">30 min <span class="pill">Melhor custo</span></span><span class="v">R$ 120</span></div>
+        <div class="prow"><span class="t">10 min</span><span class="v"><span class="oldnew"><span class="ago" data-aviso>R$ 75</span>R$ 60</span></span></div>
+        <div class="prow"><span class="t">20 min</span><span class="v"><span class="oldnew"><span class="ago" data-aviso>R$ 90</span>R$ 75</span></span></div>
+        <div class="prow hl"><span class="t">30 min <span class="pill">Melhor custo</span></span><span class="v"><span class="oldnew"><span class="ago" data-aviso>R$ 120</span>R$ 95</span></span></div>
       </div>
       <div class="pcard">
         <div class="phead">Sábado, domingo e feriado</div>
-        <div class="prow"><span class="t">20 min</span><span class="v">R$ 110</span></div>
-        <div class="prow hl"><span class="t">30 min <span class="pill">Mais vendido</span></span><span class="v">R$ 135</span></div>
+        <div class="prow"><span class="t">20 min</span><span class="v"><span class="oldnew"><span class="ago" data-aviso>R$ 110</span>R$ 90</span></span></div>
+        <div class="prow hl"><span class="t">30 min <span class="pill">Mais vendido</span></span><span class="v"><span class="oldnew"><span class="ago" data-aviso>R$ 135</span>R$ 110</span></span></div>
       </div>
     </div>
     <p class="pnote">Uso de tênis obrigatório. Todos os valores são por pessoa.</p>
 
+    <!-- AVISO DE REAJUSTE — REMOVER EM 01/08 -->
+    <div class="urg" data-aviso>
+      Os valores riscados entram em vigor em <b>1º de agosto</b>. Até 31 de julho você corre pelos preços de hoje.
+    </div>
+    <!-- FIM DO AVISO -->
+
     <div class="party" style="margin-top:34px;">
       <div class="p-item" style="border-color:var(--yellow);">
-        <h4>Até 6 pessoas: é só chegar</h4>
-        <p>Não tem reserva nem lista de espera. Você aparece dentro do horário de funcionamento e corre por ordem de chegada. Simples assim.</p>
+        <h4>Já vem incluso</h4>
+        <p>Capacete e touca sem taxa extra, orientação da equipe antes da largada e cronometragem com ranking no fim.</p>
       </div>
       <div class="p-item" style="border-color:var(--yellow);">
-        <h4>7 pessoas ou mais: a gente agenda</h4>
-        <p>Grupos grandes têm horário reservado só pra vocês, com pagamento antecipado. Assim ninguém fica esperando e todo mundo corre junto.</p>
+        <h4>Grupos a partir de 7 pessoas</h4>
+        <p>Reservamos um horário exclusivo pra vocês, com pagamento antecipado. Assim ninguém fica esperando e todo mundo corre junto.</p>
       </div>
     </div>
     <div style="margin-top:26px;">
@@ -307,12 +329,12 @@
     <h2>Perguntas <em>frequentes</em></h2>
     <div style="max-width:760px;">
       <details>
-        <summary>Precisa agendar ou posso chegar e andar?</summary>
-        <p>Até 6 pessoas é só chegar, funciona por ordem de chegada dentro do horário de funcionamento. A partir de 7 pessoas a gente agenda um horário exclusivo pelo WhatsApp (21) 3178-8811, com pagamento antecipado.</p>
+        <summary>Como funciona pra grupos?</summary>
+        <p>A partir de 7 pessoas a gente agenda um horário exclusivo pelo WhatsApp (21) 3178-8811, com pagamento antecipado. Assim vocês correm juntos, sem esperar. Para grupos menores, fale com a gente pelo WhatsApp e a equipe orienta a melhor forma.</p>
       </details>
       <details>
         <summary>Quanto custa andar de kart no Adrenalina?</summary>
-        <p>A partir de R$ 75 por pessoa, na bateria de 10 minutos de terça a sexta. Também temos 20 e 30 minutos, com valores próprios no fim de semana. A bateria de 30 minutos é a mais procurada. A tabela completa está na seção de preços.</p>
+        <p>A partir de R$ 60 por pessoa, na bateria de 10 minutos de terça a sexta. Também temos 20 e 30 minutos, com valores próprios no fim de semana. A bateria de 30 minutos é a mais procurada. A tabela completa está na seção de preços, e os valores são reajustados em 1º de agosto.</p>
       </details>
       <details>
         <summary>Precisa saber dirigir ou ter carteira de motorista?</summary>
@@ -349,7 +371,7 @@
 <section class="final">
   <div class="container">
     <h2>A pista abre hoje às <em>14h</em></h2>
-    <p style="max-width:620px;margin-left:auto;margin-right:auto;">Se você vem em até 6 pessoas, é só aparecer. Vindo com o grupo maior, chame a gente e reservamos o horário só pra vocês.</p>
+    <p style="max-width:620px;margin-left:auto;margin-right:auto;">Terça a sábado das 14h às 22h, domingo e feriado das 14h às 21h. Vindo com o grupo, chame a gente e reservamos o horário só pra vocês.</p>
     <div class="ctas" style="justify-content:center;">
       <a class="btn btn-yel" href="#onde">Como chegar</a>
     </div>
@@ -399,7 +421,7 @@
     { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "14:00", "closes": "22:00" },
     { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Sunday","PublicHolidays"], "opens": "14:00", "closes": "21:00" }
   ],
-  "priceRange": "R$75 - R$135",
+  "priceRange": "R$60 - R$135",
   "sameAs": ["https://www.instagram.com/adrenalinariokart/"]
 }
 </script>
