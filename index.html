@@ -82,6 +82,13 @@
   .pnote{ text-align:center; color:var(--mut); font-size:14px; line-height:1.7; margin-top:26px; }
   .pnote b{ color:#fff; }
 
+  .opcionais{ margin-top:30px; background:var(--navy2); border:1px solid var(--line); border-radius:20px; padding:28px 26px; }
+  .opcionais h3{ font-weight:800; font-size:17px; text-transform:uppercase; letter-spacing:.5px; color:var(--yellow); margin-bottom:18px; }
+  .ogrid{ display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:14px; }
+  .oitem{ background:var(--deep); border-radius:14px; padding:16px 18px; font-size:15px; font-weight:700; color:var(--soft); }
+  .oitem .ov{ display:block; font-weight:800; font-size:24px; color:#fff; margin-bottom:4px; }
+  .ofine{ color:var(--mut); font-size:14px; margin-top:16px; line-height:1.6; }
+
   .promo-grid{ display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:22px; margin-top:8px; }
   .promo-card{ border:2px solid var(--yellow); border-radius:20px; padding:34px 28px; text-align:center; }
   .promo-card .tag2{ display:inline-block; background:var(--yellow); color:var(--navy); font-weight:800; font-size:15px; padding:8px 20px; border-radius:30px; text-transform:uppercase; margin-bottom:16px; }
@@ -207,13 +214,13 @@
     <h2>Nunca pilotou? <em>Melhor ainda.</em></h2>
     <p class="lead">Todo mundo aqui começou sem saber. Você não precisa de carteira, de experiência nem de equipamento. Chega, escuta a equipe por dois minutos e entra na pista. Na terceira volta você já está procurando a melhor curva.</p>
     <div class="steps">
-      <div class="step"><span class="n">1</span><h3>Cadastre-se</h3><p>Faça o cadastro online antes de sair de casa. Ao chegar, você diz seu nome e vai direto pro grid. Quem preferir também faz na hora, no balcão.</p></div>
-      <div class="step"><span class="n">2</span><h3>Equipe-se</h3><p>Capacete e balaclava são nossos. Você só precisa estar de tênis. A equipe passa as regras antes da largada e acompanha a bateria inteira.</p></div>
+      <div class="step"><span class="n">1</span><h3>Cadastre-se</h3><p>Faça o cadastro online antes de sair de casa. Ao chegar, você paga na recepção e já entra na próxima bateria disponível. Quem preferir também faz na hora, no balcão.</p></div>
+      <div class="step"><span class="n">2</span><h3>Equipe-se</h3><p>Capacete, balaclava e colar cervical são nossos. Você só precisa estar de tênis. As regras vêm num briefing em vídeo antes da corrida, e a equipe acompanha a bateria inteira.</p></div>
       <div class="step"><span class="n">3</span><h3>Acelere</h3><p>Sinal verde e a pista é sua. No fim sai a cronometragem com o tempo de cada um, e aí a discussão sobre quem foi mais rápido continua no estacionamento.</p></div>
     </div>
     <div class="tags">
       <span class="tag"><b>Sem experiência:</b> a equipe te orienta</span>
-      <span class="tag"><b>Criança acelera:</b> a partir de 1,25m de altura</span>
+      <span class="tag"><b>Divisão por altura:</b> 1,25m a 1,54m na infantil, 1,55m+ na adulta</span>
       <span class="tag"><b>Chuva não cancela:</b> a pista é coberta</span>
       <span class="tag"><b>Sem carteira</b> de motorista</span>
     </div>
@@ -222,12 +229,12 @@
       <div class="pista">
         <span class="m">579 m</span>
         <h3>Pista adulta</h3>
-        <p>Curva lenta, curva de apoio e uma reta que separa quem freia cedo de quem freia tarde. É o maior traçado indoor do Rio.</p>
+        <p>Para quem tem <b>1,55m ou mais</b>. É o maior traçado indoor do Rio, e corre até 10 pessoas por bateria.</p>
       </div>
       <div class="pista">
         <span class="m">143 m</span>
         <h3>Pista infantil</h3>
-        <p>Traçado próprio pra criançada, a partir de 1,25m de altura. Sem idade mínima, em qualquer horário e pelo mesmo preço da bateria adulta.</p>
+        <p>Para quem tem entre <b>1,25m e 1,54m</b>. Kart do tamanho certo, até 4 por bateria, mesmo preço da adulta. Sem idade mínima.</p>
       </div>
     </div>
 
@@ -260,6 +267,17 @@
     </div>
     <p class="pnote"><b>Menos de 7 pessoas? Não precisa agendar nada.</b> É só aparecer no horário de funcionamento e correr por ordem de chegada. A partir de 7, o horário é exclusivo, com agendamento e pagamento antecipados.<br><b>Criança paga o mesmo valor.</b> A tabela acima vale para a pista infantil também.<br>Uso de tênis obrigatório. Todos os valores são por pessoa.</p>
 
+    <div class="opcionais">
+      <h3>Opcionais de aluguel</h3>
+      <div class="ogrid">
+        <div class="oitem"><span class="ov">R$ 10</span>Macacão</div>
+        <div class="oitem"><span class="ov">R$ 10</span>Protetor de costela</div>
+        <div class="oitem"><span class="ov">R$ 10</span>Luvas</div>
+        <div class="oitem"><span class="ov">R$ 5</span>Tênis</div>
+      </div>
+      <p class="ofine">Nada disso é obrigatório. Capacete, balaclava e colar cervical já estão inclusos na bateria.</p>
+    </div>
+
     <!-- PROVA SOCIAL — avaliacoes reais de 5 estrelas do perfil do Google (jul/2026).
          Texto literal, sem reescrita. Onde a avaliacao original era mais longa,
          citamos frases inteiras do inicio, sem alterar palavras. Nao exibimos a
@@ -289,7 +307,7 @@
     <div class="party" style="margin-top:34px;">
       <div class="p-item" style="border-color:var(--yellow);">
         <h4>Já vem incluso</h4>
-        <p>Capacete e balaclava sem taxa extra, orientação da equipe antes da largada e cronometragem por volta. O resultado sai na TV da pista e ainda chega no seu WhatsApp e e-mail.</p>
+        <p>Capacete, balaclava e colar cervical sem taxa extra, briefing em vídeo antes da corrida e cronometragem por volta. O resultado sai na TV da pista e ainda chega no seu WhatsApp e e-mail.</p>
       </div>
       <div class="p-item" style="border-color:var(--yellow);">
         <h4>Grupos a partir de 7 pessoas</h4>
@@ -324,7 +342,7 @@
     <h3 style="font-weight:800;font-size:clamp(21px,3vw,27px);text-transform:uppercase;margin-top:48px;">E tem <em style="color:var(--yellow);font-style:normal;">espaço de festa</em> pra sua turma</h3>
     <p class="lead" style="margin-top:12px;margin-bottom:0;">Você não precisa alugar salão em outro lugar. Aqui a turma canta parabéns, come e ainda corre, tudo no mesmo endereço.</p>
     <div class="party">
-      <div class="p-item"><h4>Sem custo de aluguel</h4><p>A reserva do espaço é só com agendamento antecipado pelo WhatsApp. A gente separa pra vocês sem cobrar nada a mais por isso.</p></div>
+      <div class="p-item"><h4>Sem custo de aluguel</h4><p>A reserva do espaço é só com agendamento antecipado do grupo, com no mínimo 24 horas de antecedência. A gente separa pra vocês sem cobrar nada a mais por isso.</p></div>
       <div class="p-item"><h4>O espaço é de vocês</h4><p>Bolo antes, corrida no meio, parabéns depois. Ninguém fica olhando no relógio pra correr pro próximo lugar.</p></div>
       <div class="p-item"><h4>A gente organiza tudo</h4><p>Diga a data, quantas pessoas e o horário. Montamos as baterias, a cronometragem e deixamos o espaço pronto.</p></div>
     </div>
@@ -390,15 +408,15 @@
       </details>
       <details>
         <summary>Precisa saber dirigir ou ter carteira de motorista?</summary>
-        <p>Não precisa de nenhum dos dois. A equipe explica tudo antes da largada e a maioria das pessoas que passa por aqui nunca tinha pilotado. Na primeira volta você já pega o jeito.</p>
+        <p>Não precisa de nenhum dos dois. As regras vêm num briefing em vídeo antes da corrida, e a maioria das pessoas que passa por aqui nunca tinha pilotado. Na primeira volta você já pega o jeito.</p>
       </details>
       <details>
         <summary>Criança pode andar de kart?</summary>
-        <p>Pode. O requisito é altura, não idade: a partir de 1,25m seu filho já acelera, em qualquer horário de funcionamento. Temos uma pista infantil de 143 metros, e a bateria custa o mesmo valor da adulta. Dá pra vir em família e todo mundo correr junto.</p>
+        <p>Pode, e o critério é altura, não idade. De 1,25m a 1,54m corre na pista infantil, de 1,55m em diante na adulta. Como os karts têm tamanhos diferentes, as duas categorias não correm na mesma bateria, mas dá pra vir em família e cada um corre no seu traçado. O preço é o mesmo nos dois.</p>
       </details>
       <details>
         <summary>Tem espaço para festa de aniversário?</summary>
-        <p>Tem. Além da pista, reservamos um espaço para sua turma cantar parabéns, comer e se reunir antes e depois das corridas, sem custo de aluguel. A reserva é só com agendamento antecipado pelo WhatsApp.</p>
+        <p>Tem. Além da pista, reservamos um espaço para sua turma cantar parabéns, comer e se reunir antes e depois das corridas, sem custo de aluguel. A reserva é só com agendamento antecipado do grupo, com no mínimo 24 horas de antecedência.</p>
       </details>
       <details>
         <summary>Preciso fazer cadastro? Dá pra adiantar?</summary>
@@ -406,11 +424,11 @@
       </details>
       <details>
         <summary>Andar de kart é perigoso?</summary>
-        <p>A emoção é real e a segurança também. Você usa capacete e balaclava, a pista é coberta e projetada pra isso, e a equipe acompanha a bateria inteira do lado de fora.</p>
+        <p>A emoção é real e a segurança também. Você usa capacete, balaclava e colar cervical, as regras vêm num briefing em vídeo antes da corrida, a pista é coberta e projetada pra isso, e a equipe acompanha a bateria inteira do lado de fora.</p>
       </details>
       <details>
         <summary>O que preciso vestir?</summary>
-        <p>Tênis, essa é a única exigência. Capacete e balaclava a gente fornece. Venha com roupa confortável, você vai suar mais do que imagina.</p>
+        <p>Tênis, essa é a única exigência, e se você chegar de chinelo alugamos por R$ 5. Capacete, balaclava e colar cervical a gente fornece. Venha com roupa confortável, de preferência escura, e evite saia ou vestido. Você vai suar mais do que imagina.</p>
       </details>
       <details>
         <summary>Onde fica e qual o horário?</summary>
